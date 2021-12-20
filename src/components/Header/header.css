@@ -1,27 +1,25 @@
-.removeback {
-    background-color : transparent;
-    font-size: 28px;
-}
-.white {
-    color: white;
-}
-.direction {
-    text-align: right;
-}
-.button_margin{
-    margin : 16px;
+.Nab_button{
     background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
+    font-size: 18px
 }
-.page2 {
-    margin-right: 16px;
+
+.list_icon {
+    width: 35px;
+    height: 45px;
 }
-.list_button {
-    background-color: transparent !important;
-    border: 0;
-    padding: 0;
-    margin: 0px 20px;
+
+Nav {
+    cursor: pointer !important;
 }
-.list_button_icon {
-    width: 40px;
-    height: 50px;
+
+@media (max-width: 767px) {
+    .Nab_button {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Nab_button {
+        font-size: 12px;
+    }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Button, InputGroup, FormControl, } from "react-bootstrap";
+import { Container, Row, Col, Button, InputGroup, FormControl, Image} from "react-bootstrap";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import { BsFillStarFill } from "react-icons/bs";
 import { FiSearch } from "react-icons/fi";
@@ -19,19 +19,19 @@ function Mainbody(){
         {/*  --- New Release --- */}
       <div className='top'>
         <Row>
-          <Col xxl={6} className='text-white'>
+          <Col xl={6} className='text-white'>
             <h3 className='release'>New Release</h3>
             <div>
               <strong><p className='omnichain'><span className='color'>OMNI-CHAIN EXCHANGE </span> PROTOCOL</p></strong>
             </div>
-            <p className='release line-heigh'>The Omni-DEX is a cross-chain exchange allowing the swap of thousands of tokens across 8 different blockchains seamlessly</p>
-            <Button className='text-white button-size' variant="primary" size="lg">Start Trading <img src={Arrow} height={17} width={45} alt='arrow' /></Button>
+            <p className='line-heigh' style={{fontSize:30}}>The Omni-DEX is a cross-chain exchange allowing the swap of thousands of tokens across 8 different blockchains seamlessly</p>
+            <Button className='text-white start_trading_button' variant="primary" size="lg">Start Trading <Image src={Arrow} height={17} width={45} alt='arrow' /></Button>
           </Col>
               
                 {/*  Search form  */}
-          <Col xxl={6} className='text-white'>
+          <Col xl={6} className='text-white'>
             <div className='search_back'>
-              <p className='release search_top text-white'>Complete multi chain<br/>swaps in 1 click!</p>
+              <p className='search_top text-white' style={{ fontSize: 30 }}>Complete multi chain<br/>swaps in 1 click!</p>
               <div className="text-white group-padding">
                 <InputGroup.Text className='search_icon'><FiSearch/></InputGroup.Text>
                 <FormControl className='input_style text-white' placeholder="Search name or paste address" size="lg"/>
@@ -46,17 +46,17 @@ function Mainbody(){
       <div className='GroupTop'>
         <Row>
           <Col md={4} className='text-white'>
-            <img src={Group} className='imgSize' />
+            <Image src={Group} className='imgSize' />
             <h1 className='space'>Multi-chain swaps</h1>
             <p className='para'>Lorem ipsum dolor sit amet, consecteur adipicsing elit</p>
           </Col>
           <Col md={4} className='text-white'>
-            <img src={Group} className='imgSize' />
+            <Image src={Group} className='imgSize' />
             <h1 className='space'>8 Blockchains</h1>
             <p className='para'>Lorem ipsum dolor sit amet, consecteur adipicsing elit</p>
           </Col>
           <Col md={4} className='text-white'>
-            <img src={Group} className='imgSize' />
+            <Image src={Group} className='imgSize' />
             <h1 className='space'>Trade 10000+ assets</h1>
             <p className='para'>Lorem ipsum dolor sit amet, consecteur adipicsing elit</p>
           </Col>
@@ -67,7 +67,7 @@ function Mainbody(){
       <div className='GroupTop'>
         <Row>
           <Col md={6} className='text-white'>
-            <img src={Graph} className='graphsize' />
+            <Image src={Graph} className='graphsize' />
           </Col>
           <Col md={6} className='text-white top'>
             <h1 className='title'><strong>WHAT IS <span className='color'>OMNI?</span></strong></h1>
@@ -87,15 +87,15 @@ function Mainbody(){
         <Row className='Top'>
           <Col md={6} className='text-white'>
             <div className='icon_back'>
-              <img src={Polygon} className='iconsize' /> <span style={{paddingLeft:30}}><strong> Matic Grant</strong></span>
+              <Image src={Polygon} className='iconsize' /> <span style={{paddingLeft:30}}><strong> Matic Grant</strong></span>
             </div>
             <div className='icon_back'>
-              <img src={Near} className='iconsize' /> <span style={{ paddingLeft: 30 }}><strong> Near Grant</strong></span>
+              <Image src={Near} className='iconsize' /> <span style={{ paddingLeft: 30 }}><strong> Near Grant</strong></span>
             </div>
           </Col>
           <Col md={6} className='text-white'>
             <div className='icon_back'>
-              <img src={Harmony} className='iconsize' /> <span style={{ paddingLeft: 30 }}><strong> Harmony Grant</strong></span>
+              <Image src={Harmony} className='iconsize' /> <span style={{ paddingLeft: 30 }}><strong> Harmony Grant</strong></span>
             </div>
           </Col>
         </Row>
@@ -108,7 +108,7 @@ function Mainbody(){
         <Row className='Top'>
           <Col md={6} className='text-white'>
             <div className='icon_back'>
-              <img src={Certik} className='iconsize' /> <span className='sidespace'><strong> CertiK Audit</strong></span>
+              <Image src={Certik} className='iconsize' /> <span className='sidespace'><strong> CertiK Audit</strong></span>
             </div>
 
           </Col>

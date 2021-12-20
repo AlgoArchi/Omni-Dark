@@ -7,12 +7,19 @@ import './header.css';
 function Navb(){
   return (
     <Navbar expand="xxl" className='white'>
-      <Container className="removeback justify-content-end">
-        <Navbar className='nav-item nav-link text-white page2'>Home</Navbar>
-        <Navbar className='nav-item nav-link text-white page2'>Page1</Navbar>
-        <Navbar className='nav-item nav-link text-white page2'>Page2</Navbar>
-        <Button className='nav-item nav-link text-white list_button'><AiOutlineMenu className='list_button_icon'/></Button>
-        <Button className='nav-item nav-link text-white button_margin' variant="primary" size="lg">Action Button</Button>
+      <Container className="justify-content-end" style={{ fontSize: 26}}>
+        <Navbar className='nav-item nav-link text-white'>Home</Navbar>
+        <Navbar className='nav-item nav-link text-white'>Page1</Navbar>
+        <Navbar className='nav-item nav-link text-white'>Page2</Navbar>
+        
+        <Navbar className='nav-item nav-link text-white'>
+          <Button style={{backgroundColor:'transparent', border:0}}><AiOutlineMenu className='list_icon' /></Button>
+        </Navbar>
+
+        <Navbar className='nav-item nav-link text-white'>
+          <Button className='Nab_button' variant="primary" size="lg">Action Button</Button>
+        </Navbar>
+     
      </Container>
     </Navbar>
   )
