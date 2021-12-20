@@ -1,0 +1,27 @@
+.removeback {
+    background-color : transparent;
+    font-size: 28px;
+}
+.white {
+    color: white;
+}
+.direction {
+    text-align: right;
+}
+.button_margin{
+    margin : 16px;
+    background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
+}
+.page2 {
+    margin-right: 16px;
+}
+.list_button {
+    background-color: transparent !important;
+    border: 0;
+    padding: 0;
+    margin: 0px 20px;
+}
+.list_button_icon {
+    width: 40px;
+    height: 50px;
+}
