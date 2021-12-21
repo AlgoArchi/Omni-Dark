@@ -117,6 +117,35 @@ Nav {
 	white-space: pre-line;
 }
 
+.graphsize {
+    width: 37.5rem;
+    height: 600px;
+ }
+
+ .what_omni {
+    font-size: 3.625rem;
+	font-weight: 800;
+	line-height: 1;
+	margin: 0 0 1.56rem;
+	padding-top: 6.25rem;
+ }
+
+ .about__1wd5a {
+	margin: 0 auto;
+	max-width: 1220px;
+	padding: 0 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.about__1wd5a {
+	grid-gap: 0 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 1fr;
+	padding-top: 150px;
+}
+
 @media (max-width: 1200px) {
     .top{
         margin-top: 5rem;
@@ -131,7 +160,9 @@ Nav {
         font-size: 2.8rem;
         line-height: 3.5rem;
     }
-    .threepicture
+    .three_picture {
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {

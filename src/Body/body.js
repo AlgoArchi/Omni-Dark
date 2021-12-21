@@ -65,23 +65,54 @@ function Mainbody() {
             <div className='top'>
                 <div className='three_picture'>
                     <Row>
-                        <Col sm={12} md={5} lg={4} className='text-white'>
+                        <Col sm={12} md={6} lg={4} className='text-white'>
                             <Image src={Group} className='imgSize' />
                             <h3 className='three_picture_title'>Multi-chain swaps</h3>
                             <p className='three_picture_para'>Lorem ipsum dolor sit amet, consecteur adipicsing elit</p>
                         </Col>
-                        <Col sm={12} md={5} lg={4} className='text-white'>
+                        <Col sm={12} md={6} lg={4} className='text-white'>
                             <Image src={Group} className='imgSize' />
                             <h1 className='three_picture_title'>8 Blockchains</h1>
                             <p className='three_picture_para'>Lorem ipsum dolor sit amet, consecteur adipicsing elit</p>
                         </Col>
-                        <Col sm={12} md={5} lg={4} className='text-white'>
+                        <Col sm={12} md={12} lg={4} className='text-white'>
                             <Image src={Group} className='imgSize' />
                             <h1 className='three_picture_title'>Trade 10000+ assets</h1>
                             <p className='three_picture_para'>Lorem ipsum dolor sit amet, consecteur adipicsing elit</p>
                         </Col>
                     </Row>
                 </div>
+            </div>
+
+                {/*  Graphic  */}
+            <div className='top'>
+                <Row>
+                    <div className='justify-content-end'>
+                        <h2 className='text-white what_omni'><strong>WHAT IS <span className='color'>OMNI?</span></strong></h2>
+                    </div>
+                    <Col md={6} className='text-white'>
+                        <Image src={Graph} className='graphsize' />
+                    </Col>
+                    <Col md={6} className='text-white top'>
+                        <p className='release_para'>
+                            Omni is the ultimate exchange protocol that allows users to exchange a token from one chain to another with ease.Featuring Ethereum, Smart Chain, Avalanche, Polygon, Fantom, and more by utilizing over 50 decentralized exchanges.
+                        </p>
+                    
+                    <Row className='buttonGroup_margin'>
+                        <Col sm={6}>
+                            <Button className='text-white button_1'>
+                                Action Button 
+                                <Image
+                                    src={Arrow} 
+                                    height={17} 
+                                    width={45} 
+                                    alt='arrow' />
+                            </Button>
+                            </Col>
+                        <Col sm={6}><Button className='text-white button_2'>Action Button <img src={Arrow} height={17} width={45} alt='arrow' /></Button></Col>
+                    </Row>
+                    </Col>
+                </Row>
             </div>
         </Container>
     )
