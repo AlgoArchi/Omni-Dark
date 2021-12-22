@@ -118,6 +118,7 @@ Nav {
 }
 
 .graphsize {
+<<<<<<< HEAD
    width: 37.5rem;
    height: 37.5rem;
 }
@@ -219,6 +220,36 @@ Nav {
     .button_2 {
         font-size: 1.3rem;
     }
+=======
+    width: 37.5rem;
+    height: 600px;
+}
+
+.what_omni {
+    font-size: 3.625rem;
+	font-weight: 800;
+	line-height: 1;
+	margin: 0 0 1.56rem;
+	padding-top: 6.25rem;
+}
+
+
+
+.about__1wd5a {
+	margin: 0 auto;
+	max-width: 1220px;
+	padding: 0 20px;
+	position: relative;
+	z-index: 1;
+}
+
+.about__1wd5a {
+	grid-gap: 0 50px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto 1fr;
+	padding-top: 150px;
+>>>>>>> 8a08427cdf3f4a436fece32194146180da81cbc2
 }
 
 @media (max-width: 1200px) {
@@ -246,6 +277,7 @@ Nav {
     .three_picture {
         text-align: center;
     }
+<<<<<<< HEAD
     .what_omni_container{
         display: contents;
     }
@@ -270,6 +302,8 @@ Nav {
         height: 60%;
     }
 
+=======
+>>>>>>> 8a08427cdf3f4a436fece32194146180da81cbc2
 }
 
 @media (max-width: 767px) {

@@ -104,6 +104,7 @@ function Mainbody() {
 
                 {/*  Graphic  */}
             <div className='top'>
+<<<<<<< HEAD
                 <div className='what_omni_container'>
                     <h1 className='what_omni_head text-white'><strong>WHAT IS <span className='color'>OMNI?</span></strong></h1>
                     <div className='text-white graph'>
@@ -203,6 +204,35 @@ function Mainbody() {
                 
 
                     
+=======
+                <Row>
+                    <div className='justify-content-end' style={{display:"grid"}}>
+                        <h2 className='text-white what_omni'><strong>WHAT IS <span className='color'>OMNI?</span></strong></h2>
+                    </div>
+                    <Col md={6} className='text-white'>
+                        <Image src={Graph} className='graphsize' />
+                    </Col>
+                    <Col md={6} className='text-white'>
+                        <p className='release_para'>
+                            Omni is the ultimate exchange protocol that allows users to exchange a token from one chain to another with ease.Featuring Ethereum, Smart Chain, Avalanche, Polygon, Fantom, and more by utilizing over 50 decentralized exchanges.
+                        </p>
+                    
+                    <Row className='buttonGroup_margin'>
+                        <Col sm={6}>
+                            <Button className='text-white button_1'>
+                                Action Button 
+                                <Image
+                                    src={Arrow} 
+                                    height={17} 
+                                    width={45} 
+                                    alt='arrow' />
+                            </Button>
+                            </Col>
+                        <Col sm={6}><Button className='text-white button_2'>Action Button <img src={Arrow} height={17} width={45} alt='arrow' /></Button></Col>
+                    </Row>
+                    </Col>
+                </Row>
+>>>>>>> 8a08427cdf3f4a436fece32194146180da81cbc2
             </div>
         </Container>
     )
