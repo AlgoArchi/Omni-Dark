@@ -62,6 +62,9 @@ Nav {
     padding-top: 3.125rem;
     color: white;
 }
+.search_back p {
+    font-size: 1.75rem;
+}
 
 .input_search {
 	display: flex;
@@ -166,6 +169,16 @@ Nav {
     width: auto;
     margin-bottom: 0.3rem;
     background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
+}
+
+.buttongroup_container {
+    grid-gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+
+}
+.dex_blockchain_container {
+    display: flex;
 }
 
 .buttonGroup_margin {
@@ -405,7 +418,6 @@ Nav {
     border-radius: 0.625rem;
     border: 0;
     background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
-
 }
 
 .email_input_container {
@@ -575,6 +587,12 @@ Nav {
     .trade_actionButton_container {
         text-align: center;
     }
+    .buttongroup_container {
+        grid-gap: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+
+    }
 }
 
 @media (max-width: 767px) {
@@ -616,6 +634,10 @@ Nav {
     }
 }
 
+@media (max-width: 576px) {
+    
+}
+
 @media (max-width: 550px) {
     .documentation_head {
         font-size: 2.5rem;
@@ -645,10 +667,159 @@ Nav {
     .subscribe_input_container button {
         font-size: 0.8rem;
     }
+    .icon_arrange {
+        grid-gap: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 40px);
+    }
+
+    .documentation_head {
+        font-size: 1.8rem;
+    }
+    .documentation_para {
+        font-size: 1rem;
+    }
+    .documentation_button_contain button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 400px) {
     .search_input_field {
         width: 15rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .Nab_button{
+        font-size: 0.7rem;
+    }
+    .Nav_icon {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .Omni_chain {
+        font-size: 2.5rem;
+        font-weight: 800;
+        line-height: 2.68rem;
+    }
+    .start_trading_button {
+        font-size: 1rem;
+        border-radius: 0.375rem;
+        padding: 0.5rem;
+        padding-right: 2rem;
+    }
+    .start_trading_button img {
+        width: 30px;
+    }
+
+    .search_back {
+        width: 100%;
+        height:23rem;
+    }
+    .search_back p {
+        font-size: 1.2rem;
+    }
+
+    .search_input_field {
+        font-size: 18px;
+        height: 40px;
+    }
+    .search_icon {
+        width: 15px;
+        margin-top: 3px;
+    }
+    .input_search button {
+        padding: 0.4rem 0.5rem;
+        height: 40px;
+        width: 50px;
+    }
+    .imgSize {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .three_picture_title {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .what_omni_para {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .what_omni_head {
+        font-size: 35px;
+    }
+    .graphsize {
+        width: 18rem;
+        height: 18rem;
+    }
+    .buttonGroup_margin {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button_1 {
+        font-size: 0.8rem;
+    }
+
+    .button_2 {
+        font-size: 0.8rem;
+    }
+    .Grnats_icon_back {
+        width: 75%;
+        height: 4.5rem;
+        font-size: 1.3rem;
+        padding: 1rem;
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+    }
+    .grants_group {
+        text-align: -webkit-center;
+    }
+    .audit_button {
+        font-size: 1rem;
+        width: 13rem;
+    }
+    .audit_button img {
+        width: 33px;
+    }
+    .dex_blockchain {
+        margin-top: 2.8rem;
+    }
+
+
+
+
+    .ETH_amount_input_container {
+        width: 16rem;
+        height: 4.3rem;
+    }
+    .change_button_container button {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    
+    .subscribe_input_container {
+        height: 3.5rem;
+        padding: 0.7rem;
+    }
+    .subscribe_input_container input {
+        height: 1.5rem;
+        width: 50%;
+        font-size: 1rem;
+        padding-top: 0.5rem;
+    }
+    .subscribe_input_container button {
+        font-size: 0.7rem;
+        height: 1.9rem;
+        width: auto;
+        margin-left: 0.5rem;
+    }
+    .icon_arrange {
+        grid-gap: 40px;
+        display: grid;
+        grid-template-columns: repeat(4, 40px);
     }
 }

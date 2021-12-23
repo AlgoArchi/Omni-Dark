@@ -63,7 +63,7 @@ function Mainbody() {
                         {/*  Search form  */}
                         <Col sm={12} md={12} lg={12} xl={6} className='text-white'>
                             <div className='search_back'>
-                                <p className='text-white' style={{ fontSize: "1.75rem" }}>Complete multi chain<br />swaps in 1 click!</p>
+                                <p className='text-white'>Complete multi chain<br />swaps in 1 click!</p>
                                 
                                 <div className='input_search'>
                                     <div>
@@ -135,7 +135,7 @@ function Mainbody() {
                     <h1 className='what_omni_head'><strong>GRANTS FOR <span className='color'>OMNI</span></strong></h1>
                     <p className='what_omni_para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br />eiusmod tompor incididunt ut labore et dolore magana aliqua.</p>
                     <Row>
-                        <Col sm={12} md={6} lg={6} className='text-white'>
+                        <Col sm={12} md={6} lg={6} className='text-white grants_group'>
                             <div className='Grnats_icon_back'>
                                 <Image src={Polygon} className='Grants_icon_size' /> <span style={{ paddingLeft: 30 }}><strong> Matic Grant</strong></span>
                             </div>
@@ -143,7 +143,7 @@ function Mainbody() {
                                 <Image src={Near} className='Grants_icon_size' /> <span style={{ paddingLeft: 30 }}><strong> Near Grant</strong></span>
                             </div>
                         </Col>
-                        <Col sm={12} md={6} lg={6} className='text-white'>
+                        <Col sm={12} md={6} lg={6} className='text-white grants_group'>
                             <div className='Grnats_icon_back'>
                                 <Image src={Harmony} className='Grants_icon_size' /> <span style={{ paddingLeft: 30 }}><strong> Harmony Grant</strong></span>
                             </div>
@@ -156,7 +156,7 @@ function Mainbody() {
                     <h1 className='what_omni_head'><strong><span className='color'>OMNI </span> AUDITS</strong></h1>
                     <p className='what_omni_para'>Lorem ipsum dolor sit amet, consectetur adipisciping<br />elit, sed do eiusmod tempor incididunt ut labore</p>
                     <Row>
-                        <Col md={6} className='text-white'>
+                        <Col md={6} className='text-white grants_group'>
                             <div className='Grnats_icon_back'>
                                 <Image src={Certik} className='Grants_icon_size' /> <span style={{ paddingLeft: 30 }}><strong> CertiK Audit</strong></span>
                             </div>
@@ -171,46 +171,46 @@ function Mainbody() {
                         {/* Button Group */}
                 <div className='top'>
                     <h1 className='what_omni_head text-white'><strong><span className='color'>OMNI </span> SUPPORTS</strong></h1>
-                    <Row>
-                        <Col sm={6} className='text-white'>
+                    <div className='buttongroup_container'>
+                        <div className='text-white'>
                             <h2 className='dex_blockchain'>DEXES</h2>
-                            <Row>
-                                <Col lg={6} className='text-white'>
+                            <div className="dex_blockchain_container">
+                                <div className='text-white'>
                                     <Uniswap_Button />
                                     <Pangolin_Button />
                                     <Sushiswawp_Button />
                                     <Pancakeswap_Button />
                                     <Solarbeam_Button />
-                                </Col>
+                                </div>
 
-                                <Col lg={6} className='text-white'>
+                                <div className='text-white'>
                                     <Quickswap_Button />
                                     <Linch_Button />
                                     <OxProtocol_Button />
                                     <Ploygon_Button />
                                     <Spiritswap_Button />
-                                </Col>
-                            </Row>
-                        </Col>
-                        <Col sm={6} className='text-white'>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='text-white'>
                             <h2 className='dex_blockchain'>BLOCKCHAINS</h2>
-                            <Row>
-                                <Col lg={6} className='text-white'>
+                            <div className='dex_blockchain_container'>
+                                <div className='text-white'>
                                     <Ethereum_Button />
                                     <Fantom_Button />
                                     <Avalanche_Button />
                                     <Harmony_Button />
-                                </Col>
+                                </div>
 
-                                <Col lg={6} className='text-white'>
+                                <div className='text-white'>
                                     <Ploygon_Button />
                                     <XDai_Button />
                                     <Ploygon_Button />
                                     <BSC_Button />
-                                </Col>
-                            </Row>
-                        </Col>
-                    </Row>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                         {/*  Exchange */}
