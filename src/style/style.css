@@ -118,7 +118,6 @@ Nav {
 }
 
 .graphsize {
-<<<<<<< HEAD
    width: 37.5rem;
    height: 37.5rem;
 }
@@ -209,6 +208,275 @@ Nav {
     margin-bottom: 1.56rem;
 }
 
+.what_omni {
+    font-size: 3.625rem;
+	font-weight: 800;
+	line-height: 1;
+	margin: 0 0 1.56rem;
+	padding-top: 6.25rem;
+}
+
+.calculation_container {
+    background-color:#142544a1;
+    width: 100%;
+    border-radius: 0.93rem;
+    border: 0;
+    color: white;
+    margin: 9.37rem auto 0;
+    padding: 3.125rem;
+    position: relative;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.05);
+}
+
+.cal_title {
+	display: flex;
+	justify-content: space-between;
+    font-size: 1.875rem;
+}
+
+.documentation_contain {
+    display: flex;
+	justify-content: space-between;
+    font-size: 30px;
+}
+
+.documentation_head {
+    font-size: 3.125rem;
+}
+
+.cal_change {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+	margin-top: 3.125rem;
+}
+
+.ehtereum_picture {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    margin-top: -30px;
+}
+
+.ETH_container {
+    display: flex;
+	flex-direction: column;
+    margin-left: 1rem;
+}
+
+.documentation_para {
+    font-size: 1.3rem;
+}
+
+.ETH_amount_input_container {
+    position: relative;
+	width: 19.375rem;
+	height: 5rem;
+	padding: 0 0.43rem 0 1rem;
+	border-radius: 0.625rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: sans-serif;
+	color: #fff;
+    background-color: #092144;
+}
+.ETH_amount_input_container p {
+    margin-top: 0.93rem;
+    font-size: 1.25rem;
+}
+
+.ETH_amount_input_container input {
+	height: 2rem;
+	width: 55%;
+	border: none;
+	outline: none;
+	background: transparent !important;
+	font-size: 1.25rem;
+    color: #fff;
+    margin-left: 0.625rem;
+}
+.ETH_amount_input_container button {
+	width: 35%;
+	height: 2.5rem;
+	border-radius: 0.43rem;
+	color: #fff;
+	margin-right: 0.625rem;
+    background-color: #050d21;
+    border: none;
+
+}
+
+.amount_info_button {
+	width: 7.5rem;
+	padding-left: 1.25rem;
+	text-align: left;
+	height: 2.5rem;
+	border-radius: 0.43rem;
+	color: #fff;
+	margin-top: 0.625rem;
+	background-color: #092144;
+    border: none;
+    font-size: 1.125rem;
+}
+.amount_info_button_right {
+    margin-left: 0.625rem;
+}
+
+.calc_arrow_right {
+	display: flex;
+	align-items: center;
+}
+
+.calc_arrow_right button {
+    background-color: transparent;
+    border: none;
+    margin-top: -1.875rem;
+}
+
+.calc_arrow_down {
+	display: flex;
+	align-items: center;
+    display: none;
+}
+
+.calc_arrow_down button {
+    background-color: transparent;
+    border: none;
+    margin-top: -1.875rem;
+}
+
+.change_container1 {
+    display:flex;
+    margin-top:1.3rem;
+}
+.change_container2 {
+    display:flex;
+    margin-top:1.3rem;
+}
+.change_button_container {
+    margin-top:1.3rem;
+}
+
+.subscribe_container {
+    background: linear-gradient(to left, #3366ff 0%, #66ccff 100%);
+    width: 100%;
+    display: flex;
+    border: 0;
+    color: white;
+    margin: 9.375rem auto 0;
+    padding: 3.125rem;
+    position: relative;
+    box-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.05);
+}
+.subscribe_content {
+    width: 100%;
+    position: relative;
+    display: flex;
+	justify-content: space-between;
+}
+
+.subscribe_input_container {
+    position: relative;
+	height: 4.75rem;
+	padding: 1rem;
+	border-radius: 0.625rem;
+	justify-content: space-between;
+	font-family: sans-serif;
+	color: #fff;
+    background-color: #fff;
+}
+
+
+.subscribe_input_container input {
+	height: 2.1rem;
+	width: 58%;
+	border: none;
+	outline: none;
+	background: #fff;
+	font-size: 1.56rem;
+    margin-left: 0.625rem;
+}
+
+.subscribe_input_container button {
+	font-size: 1.56rem;
+    height: 3.12rem;
+    width: 13rem;
+    border-radius: 0.625rem;
+    border: 0;
+    background: linear-gradient(to left, #0066ff 0%, #00ccff 100%);
+
+}
+
+.email_input_container {
+    display: flex;
+    align-items: center;
+}
+
+.documentation_button_contain {
+    display:flex;
+    align-items:center;
+}
+
+.footer_container {
+	background-color:var(--bg-footer) ;
+}
+.detail_container {
+	margin: auto;
+	max-width: 1220px;
+	padding: 76px 20px 96px;
+	position: relative;
+}
+
+.footer_title {
+	color: #bec2cb;
+	font-size: 1.5625rem;
+	line-height: 1.6;
+	margin: 0 0 2.43rem;
+}
+.seperate {
+	grid-gap: 3.75rem 2.5rem;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(-webkit-min-content, 265px));
+	grid-template-columns: repeat(auto-fit, minmax(min-content, 265px));
+	justify-content: space-between;
+}
+
+.icon_arrange {
+	grid-gap: 40px;
+	display: grid;
+	grid-template-columns: repeat(4, 70px);
+}
+.icon_arrange_img {
+	align-items: center;
+    background: #0d1d36;
+	border-radius: 50%;
+	color: #fff;
+	display: grid;
+	height: 56px;
+	justify-content: center;
+	transition: 0.1s ease-in-out;
+	width: 56px;
+}
+
+.second_detail {
+	grid-gap: 19px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.second_detail p {
+    align-items: center;
+	display: flex;
+	font-size: 18px;
+	font-weight: 600;
+	justify-content: space-between;
+	line-height: 1.45;
+	color: #fff;
+	width: 100%;
+}
+
+
 @media (max-width: 1400px) {
     .top{
         margin-top: 5rem;
@@ -220,37 +488,34 @@ Nav {
     .button_2 {
         font-size: 1.3rem;
     }
-=======
-    width: 37.5rem;
-    height: 600px;
+    .documentation_contain {
+        display: block;
+        text-align: center;
+    }
+    .documentation_button_contain {
+        display: block;
+    }
+    .cal_change {
+        display: block;
+    }
+    .change_container1 {
+        justify-content: center;
+    }
+    .change_container2 {
+        justify-content: center;
+    }
+    .change_button_container {
+        text-align: center;
+    }
+    .calc_arrow_down {
+        display: grid;
+        margin-top: 3rem;
+    }
+    .calc_arrow_right {
+        display: none;
+    }
 }
 
-.what_omni {
-    font-size: 3.625rem;
-	font-weight: 800;
-	line-height: 1;
-	margin: 0 0 1.56rem;
-	padding-top: 6.25rem;
-}
-
-
-
-.about__1wd5a {
-	margin: 0 auto;
-	max-width: 1220px;
-	padding: 0 20px;
-	position: relative;
-	z-index: 1;
-}
-
-.about__1wd5a {
-	grid-gap: 0 50px;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: auto 1fr;
-	padding-top: 150px;
->>>>>>> 8a08427cdf3f4a436fece32194146180da81cbc2
-}
 
 @media (max-width: 1200px) {
     .top{
@@ -263,6 +528,13 @@ Nav {
         padding: 1.68rem;
         padding-left: 4rem;
         margin-bottom: 1rem;
+    }
+    .subscribe_content {
+        display: block;
+        text-align: center;
+    }
+    .email_input_container {
+        display: inline-block;
     }
 }
 
@@ -277,7 +549,6 @@ Nav {
     .three_picture {
         text-align: center;
     }
-<<<<<<< HEAD
     .what_omni_container{
         display: contents;
     }
@@ -301,9 +572,9 @@ Nav {
     .Grants_icon_size {
         height: 60%;
     }
-
-=======
->>>>>>> 8a08427cdf3f4a436fece32194146180da81cbc2
+    .trade_actionButton_container {
+        text-align: center;
+    }
 }
 
 @media (max-width: 767px) {
@@ -329,6 +600,26 @@ Nav {
         align-items:center;
         text-align:center;
     }
+    .subscribe_input_container button {
+        width: auto;
+        font-size: auto;
+    }
+}
+
+@media (max-width: 590px) {
+    .subscribe_input_container button {
+        font-size: 1.3rem;
+    }
+    .subscribe_input_container input {
+        margin-left: 0;
+        width: 50%;
+    }
+}
+
+@media (max-width: 550px) {
+    .documentation_head {
+        font-size: 2.5rem;
+    }
 }
 
 @media (max-width: 520px) {
@@ -347,6 +638,12 @@ Nav {
     }
     .search_input_field {
         width: 18.3rem;
+    }
+}
+
+@media (max-width: 451px) {
+    .subscribe_input_container button {
+        font-size: 0.8rem;
     }
 }
 

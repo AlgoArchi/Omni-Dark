@@ -20,3 +20,13 @@
 .left {
     margin-left: 0.93rem;
 }
+
+
+@media (max-width: 1200px) {
+    .button_background {
+        font-size: 1.2rem;
+    }
+    .button_image {
+        width: 2.8rem;
+    }
+}
