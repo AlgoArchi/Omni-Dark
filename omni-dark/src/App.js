@@ -1,12 +1,14 @@
 import React from "react";
-import Content from './content/content';
+import Content from './Content/Content.js';
 import './App.css';
+
+
 
 function App() {
   return (
-    <>
-        <Content />
-    </>
+    <div className="App">
+      <Content />
+    </div>
   );
 }
 
