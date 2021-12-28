@@ -1,15 +1,12 @@
 import React from "react";
-import Content from './Content/Content.js';
-import './App.css';
+import "./App.css";
+import Navigation from "./navigation";
 
-
-
-function App() {
-  return (
-    <div className="App">
-      <Content />
-    </div>
-  );
+export default function App() {
+	
+	return (
+		<>
+			<Navigation />
+		</>
+	);
 }
-
-export default App;

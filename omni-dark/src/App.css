@@ -17,10 +17,6 @@
 	--filter-invert: invert(1);
 }
 
-.App {
-	background-color: #282828;
-}
-
 html.dark {
 	--omni-base-01: #000;
 	--omni-base-02: #fff;

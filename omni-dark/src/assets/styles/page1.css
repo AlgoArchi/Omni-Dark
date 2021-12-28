@@ -3,12 +3,17 @@
 .bg-app{
     background-color: #182845;
 }
+a {
+  text-decoration: none !important;
+}
+
+
 .btn-trans{
     background-color: transparent;
     color:white;
 }
 .toolBar{
-    height: 10vh;
+    height: 12vh;
     /* background: #182845; */
 }
 .toolbarRight{
@@ -19,18 +24,17 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #182845;
-    /* height: 90vh; */
+    background-color: #282828;
     padding:2rem .75rem 0 .75rem;
-    
     position: relative;
     font-family: "Inter", sans-serif;
+    margin-top: 2.8rem;
 }
 .page1BodyContainerLight{
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: #e5e5e5;
     /* height: 90vh; */
     padding:2rem .5rem 0 .5rem;
     
@@ -40,33 +44,40 @@
 .rocketImg{
     margin-left:-80px;
     width: 160px;
+    margin-bottom: -33px;
 }
-.dotLogo{
-    width: 70px;
-}
+
 .cFont{
     font-family: "Inter", sans-serif !important;
-    font-weight: 800 !important;
+    font-weight: lighter !important;
+}
+.cFontLight{
+    font-family: "Inter", sans-serif !important;
+    font-weight: lighter !important;
+    color: rgba(0, 0, 0, 0.877);
 }
 
 .color2{
-    color:#27ecfe;
+    color:white;
+    font-weight: lighter !important;
 }
 .color2Light{
-    color:#7ea2c1;
+    color:#939393;
+    font-weight: lighter !important;
 }
 .rect1{
-    background-image: url(../images/page1/landing-bg.png);
+    background-image: url(../images/page1/VectorObject.png);
     background-position: center;
     background-size: cover;
     border-radius: 24px;
     background-color: rgba(13, 27, 55, 0.4);
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 0 !important;
     position: relative;
+    height: 20rem;
     z-index: 10;
 }
 .rect1Light{
-    background-image: url(../images/page1/landing-bg-light.png);
+    background-image: url(../images/page1/VectorObjectlight.png);
     background-position: center;
     background-size: cover;
     border-radius: 24px;
@@ -76,11 +87,12 @@
     z-index: 10;
 }
 .launchBtn{
-    background-color: #0a3662;
+    background-color: #393939;
     color:white;
+    opacity: 50%;
 }
 .launchBtnLight{
-    background-color: #759ab9;
+    background-color: #868686;
     color:white;
 }
 
@@ -94,6 +106,8 @@
     background-position: center;
     background-size: cover;
     border-radius: 24px;
+    padding: 80px 0;
+    
 }
 .rect2Light{
     background-image: url(../images/page1/farming-bg-light.png);
@@ -218,13 +232,6 @@
 
 
 
-
-
-
-
-
-
-
 /* footer css ----- */
 
 .footer_container {
@@ -330,33 +337,47 @@
     margin-left: -3rem;
     margin-right: -3rem;
 } */
-.cubeImage{
-    position: absolute;
-    bottom:40px;
-    left:-20px;
-    z-index: 3;
-    width: 60px;
-}
-.cubeImage1{
-    position: absolute;
-    bottom:0px;
-    right:1px;
-    z-index: 3;
-    width: 60px;
-}
-.cubeImage2{
-    position: absolute;
-    top:-10px;
-    left:0px;
-    z-index: 3;
-    width: 40px;
-}
+
 .rect1bgImage{
     position: absolute;
     width: 100%;
     left:-20px;
     z-index: 3;
 }
+.spider {
+    position: absolute;
+    right: 0px;
+    z-index: 3;
+    width: 200px;
+}
+
+.cubeImage{
+    position: absolute;
+    bottom:40px;
+    left:-20px;
+    z-index: 3;
+    width: 80px;
+}
+.cubeImage1{
+    z-index: 3;
+    width: 3.75rem;
+    margin-top: -50px;
+}
+.cubeImage2{
+    position: absolute;
+    top:-10px;
+    left:0px;
+    z-index: 3;
+    width: 2.5rem;
+}
+
+.rightImg{
+    position: absolute;
+    width: 100%;
+    right: 10px;
+    z-index: 2;
+}
+
 .slide{
     width: 100%;
     /* background-color: #13223e; */
@@ -386,6 +407,52 @@
 .swipe1Light{
     background-color: #b8b8b880;
 }
+
+.VZN_btn {
+    border-color: #fff !important;
+    font-size: 16pt !important;
+    margin-right: 2.0rem !important;
+}
+
+.wallet_btn {
+    background: linear-gradient(to left, #555555 0%, #b5b5b5 100%) !important;
+    font-size: 16pt !important;
+    margin-right: 0.5rem !important;
+    border-radius: 7px !important;
+}
+
+.wallet_btnLight {
+    background: linear-gradient(to left, #393939 0%, #8a8a8a 100%) !important;
+    font-size: 16pt !important;
+    margin-right: 0.5rem !important;
+    border-radius: 7px !important;
+}
+
+.beginner_btn {
+    background: linear-gradient(to left, #555555 0%, #b5b5b5 100%) !important;
+    font-size: 16pt !important;
+    border-radius: 7px !important;
+    padding: 0.8rem 40px !important;
+}
+.beginner_btnLight {
+    background: linear-gradient(to left, #393939 0%, #8a8a8a 100%) !important;
+    font-size: 16pt !important;
+    border-radius: 7px !important;
+}
+
+.beginner_btn_container {
+    margin-left: 3rem;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.setting_btn {
+    background-color: transparent !important;
+}
+
+
+
+
 @media (min-width: 768px) {
     .page1BodyContainer{
         padding:2rem 4rem 0 4rem;
