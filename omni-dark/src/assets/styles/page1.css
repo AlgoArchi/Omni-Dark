@@ -122,14 +122,20 @@ a {
     background: linear-gradient(to left, #393939 0%, #8a8a8a 100%) !important;
     color:white !important;
     font-size: 16pt !important;
-    padding: 0.8rem 2rem !important;
+    padding: 0.5rem 2rem !important;
 }
+
+.wallet_arrow {
+    font-size: 30px !important;
+}
+
 .rect2{
     background-image: url(../images/page1/farming-bg.png);
+    background-color: #3535357e;
     background-position: center;
     background-size: cover;
-    border-radius: 24px;
-    padding: 80px 0;
+    border-radius: 1.5rem;
+    padding: 5rem 0;
     
 }
 .rect2Light{
@@ -137,42 +143,43 @@ a {
     background-position: center;
     background-size: cover;
     background-color: rgb(222,223,225,.9);
-    border-radius: 24px;
+    border-radius: 1.5rem;
 }
 .bgDCB{
-    background-color: rgba(42, 66, 110, 0.4);
+    background-color: #c2c2c21a;
     padding:.5rem;
+    border-radius: 0.625rem;
 }
 .rect3{
-    background-color: #23355780;
+    background-color: #3535356e;
     background-image: url(../images/page1/hot-farm-bg.png);
     background-position: center;
     background-size: auto;
-    border-radius: 24px;
+    border-radius: 1.5rem;
     
-    padding: 2rem 2rem;
+    padding: 3rem 3rem;
     position: relative;
     z-index: 10;
 }
 .rect3Light{
-    background-color: #23355780;
+    background-color: #dadada;
     background-image: url(../images/page1/hot-farm-bg-light.png);
     background-position: center;
     background-size: auto;
-    border-radius: 24px;
+    border-radius: 1.5rem;
     background-color: rgb(222,223,225,.9);
-    padding: 2rem 2rem;
+    padding: 3rem 3rem;
     position: relative;
     z-index: 10;
 }
 .rect4{
-    background-color: rgba(19, 34, 62, 0.4);
+    background-color: #35353560;
     background-image: url(../images/page1/cool-pools-bg.png);
     background-position: center;
     background-size: cover;
     border-radius: 24px;
     
-    padding: 2rem 2rem;
+    padding: 3rem 3rem;
     position: relative;
     z-index: 10;
 }
@@ -183,60 +190,65 @@ a {
     background-size: cover;
     border-radius: 24px;
     
-    padding: 2rem 2rem;
+    padding: 3rem 3rem;
     position: relative;
     z-index: 10;
 }
 .rect5{
-    background-color: #13223e;
-    background-image: url(../images/page1/dots-bg.png);
+    background-color: #222222;
     background-position: center;
     background-size: cover;
     border-radius: 24px;
-    
     padding: 2rem 1rem;
     position: relative;
     z-index: 10;
 }
 .rect5Light{
-    background-color: #e9eaea;
-    background-image: url(../images/page1/dots-bg.png);
+    background-color: #dadada;
     background-position: center;
     background-size: cover;
     border-radius: 24px;
-    
     padding: 2rem 1rem;
     position: relative;
     z-index: 10;
 }
 .rect5-item1{
     width: 100%;
-    background-color: #172847;
+    background-color: #282828;
     padding:1rem 1rem;
     display: flex;
     justify-content: space-between;
 }
 .rect5-item1Light{
     width: 100%;
-    background-color: #d0e6f5;
+    background-color: #d2d2d2;
     padding:1rem 1rem;
     display: flex;
     justify-content: space-between;
 }
 .rect5-item2{
-    background-color:#0f1d38;
+    background-color:#1d1d1d;
     padding:1rem 1rem;
     width: 100%;
     justify-content: space-between;
     display: flex;
 }
 .rect5-item2Light{
-    background-color:#afc9e0;
+    background-color:#b5b5b5;
     padding:1rem 2rem;
     width: 100%;
     justify-content: space-between;
     display: flex;
 }
+
+.dot_img {
+    position: absolute;
+    right:0px;
+    top: -10rem;
+    z-index: 15;
+    width: 40rem;
+}
+
 .newsLetter{
     background: linear-gradient(to right, #2fabe6, #07528f);
     display: flex;
@@ -379,7 +391,7 @@ a {
     bottom:40px;
     left:-20px;
     z-index: 3;
-    width: 80px;
+    width: 5rem;
 }
 .cubeImage1{
     z-index: 3;
@@ -392,6 +404,13 @@ a {
     left:0px;
     z-index: 3;
     width: 2.5rem;
+}
+.cubeImage4{
+    position: absolute;
+    bottom:-10px;
+    right:0px;
+    z-index: 3;
+    width: 5rem;
 }
 
 .rightImg{

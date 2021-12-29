@@ -24,6 +24,8 @@ import { ThemeContext } from "../theme/ThemeContext";
 import Button from '@mui/material/Button';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+import dotimg from "../assets/images/page1/dots-bg.png"
+
 const DexHomeBody = () => {
     const theme1 = useContext(ThemeContext);
     const darkMode = theme1.state.darkMode;
@@ -84,7 +86,7 @@ const DexHomeBody = () => {
                                     <Button variant="contained" className={darkMode ? 'launchBtn btn-md-lg d-flex' : 'launchBtnLight btn-md-lg d-flex'} endIcon={<LockIcon />}>Locked</Button>
                                 </div>
                                 <div>
-                                    <Button className={darkMode ? 'unlockbtn_gra btn-md-lg d-flex' : 'unlockbtn_graLight btn-md-lg d-flex'} endIcon={<ArrowRightAltIcon fontSize='30px'/>}>
+                                    <Button className={darkMode ? 'unlockbtn_gra btn-md-lg d-flex' : 'unlockbtn_graLight btn-md-lg d-flex'} endIcon={<ArrowRightAltIcon className='wallet_arrow' />}>
                                         Unlock Wallet                                        
                                     </Button>
                                 </div>
@@ -93,10 +95,10 @@ const DexHomeBody = () => {
                     </div>
                 </div>
                 <div className="col-md-12 mt-5">
-                    <img src={fadedCube} className="cubeImage2" />
-                    <div className={darkMode? 'rect3 d-flex flex-column justify-content-center justify-content-md-start py-5': 'rect3Light d-flex flex-column justify-content-center justify-content-md-start py-5'}>
-                        <div className="text-center text-md-left">
-                            <h2 className="cFont"><span className={darkMode?'color2':'color2Light'}>HOT</span> FARMS</h2>
+                    <img src={cube} className="cubeImage2" />
+                    <div className={darkMode? 'rect3 d-flex flex-column justify-content-center justify-content-md-start': 'rect3Light d-flex flex-column justify-content-center justify-content-md-start'}>
+                        <div className={darkMode ? 'color2 text-center text-md-left' : 'color2Light text-center text-md-left'}>
+                            <h2><span className={darkMode ?'cFont':'cFontLight'}>HOT</span> FARMS</h2>
                             <h6 className="">Vision is the ultimate exchange protocol</h6>
                         </div>
                         <div className="d-flex flex-column flex-md-row justify-content-start">
@@ -122,11 +124,11 @@ const DexHomeBody = () => {
                     </div>
                 </div>
                 <div className="col-md-12 mt-5 position-relative">
-                    <img src={cube} className="cubeImage1" />
+                    <img src={cube} className="cubeImage4" />
                     <div className={darkMode? 'rect4 d-flex flex-column justify-content-center justify-content-md-start py-5':'rect4Light d-flex flex-column justify-content-center justify-content-md-start py-5'}>
-                        <div className="text-center text-md-left">
-                            <h2 className="cFont"><span className={darkMode?'color2':'color2Light'}>COOL</span> FARMS</h2>
-                            <h6 className="">Vision is the ultimate exchange protocol</h6>
+                        <div className={darkMode ? 'color2 text-center text-md-left' : 'color2Light text-center text-md-left'}>
+                            <h2><span className={darkMode ? 'cFont' : 'cFontLight'}>COOL </span> POOLS</h2>
+                            <h6 className="">Vision is the ultimate exchange</h6>
                         </div>
                         <div className="d-flex flex-column flex-md-row justify-content-start">
                             <div className="d-flex justify-content-center justify-content-md-start bgDCB mr-md-2 pr-5">
@@ -178,30 +180,37 @@ const DexHomeBody = () => {
                     </div>
                 </div>
                 <div className="col-md-12 mt-4">
+
                     <div className={`d-flex flex-column justify-content-center align-items-center mt-4 py-md-4 ${darkMode?'rect5':'rect5Light'}`}>
                         <div>
-                            <h2 className="cFont mb-3 text-center text-md-left"><span className={darkMode?'color2':'color2Light'}>VISION EXCHANGE</span> STATS</h2>
+                            <h2 className={darkMode ? 'cFont mb-3 text-center text-md-left' :'cFontLight mb-3 text-center text-md-left'}><span className={darkMode?'color2':'color2Light'}>VISION EXCHANGE</span> STATS</h2>
                         </div>
                         <div className="d-flex flex-column">
                             <div className={darkMode?'rect5-item1':'rect5-item1Light'}>
                                 <span className="text-uppercase">Total Value Locked</span>
-                                <span>$ 454,543,34</span>
+                                <span>$ 454,252,717</span>
                             </div>
                             <div className={darkMode?'rect5-item2':'rect5-item2Light'}>
                                 <span className="text-uppercase">USD Market Cap</span>
-                                <span>$ 454,543,34</span>
+                                <span>$ 132,712,547</span>
                             </div>
                             <div className={darkMode?'rect5-item1':'rect5-item1Light'}>
                                 <span className="text-uppercase">Banana in circulation</span>
-                                <span>$ 454,543,34</span>
+                                <span>81,734,610</span>
                             </div>
                             <div className={darkMode?'rect5-item2':'rect5-item2Light'}>
+                                <span className="text-uppercase">Gnana in circulation</span>
+                                <span>12,669,166</span>
+                            </div>
+                            <div className={darkMode ? 'rect5-item1' : 'rect5-item1Light'}>
                                 <span className="text-uppercase">Total Banana Burned</span>
-                                <span>$ 454,543,34</span>
+                                <span>15,504,256</span>
                             </div>
                         </div>
                     </div>
+                    <img src={dotimg} className="dot_img" />
                 </div>
+                
                 <div className="col-md-12 p-0">
                     <div className="newsLetter">
                         <div>
