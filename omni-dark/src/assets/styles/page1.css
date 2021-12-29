@@ -65,12 +65,18 @@ a {
     color:#939393;
     font-weight: lighter !important;
 }
+.color2 p {
+    font-size: 16pt;
+}
+.color2Light p {
+    font-size: 16pt;
+}
+
 .rect1{
     background-image: url(../images/page1/VectorObject.png);
     background-position: center;
     background-size: cover;
     border-radius: 24px;
-    background-color: rgba(13, 27, 55, 0.4);
     padding: 1rem 2rem 0 !important;
     position: relative;
     height: 20rem;
@@ -86,20 +92,37 @@ a {
     position: relative;
     z-index: 10;
 }
-.launchBtn{
-    background-color: #393939;
-    color:white;
-    opacity: 50%;
-}
-.launchBtnLight{
-    background-color: #868686;
-    color:white;
+.launchBtn_container {
+    margin-right: 0.625rem;
 }
 
-.btn-gradient{
-    background-color: skyblue;
-    background: linear-gradient(to right, #2fabe5, #07518f);
-    color:white;
+.launchBtn{
+    background-color: #393939 !important;
+    color:white !important;
+    opacity: 50% !important;
+    font-size: 16pt !important;
+    padding: 0.5rem 2rem !important;
+}
+.launchBtnLight{
+    background-color: #868686 !important;
+    color:white !important;
+    opacity: 50% !important;
+    font-size: 16pt !important;
+    padding: 0.5rem 2rem !important;
+}
+
+.unlockbtn_gra{
+    background: linear-gradient(to left, #555555 0%, #b5b5b5 100%) !important;
+    color:white !important;
+    font-size: 16pt !important;
+    padding: 0.5rem 2rem !important;
+}
+
+.unlockbtn_graLight{
+    background: linear-gradient(to left, #393939 0%, #8a8a8a 100%) !important;
+    color:white !important;
+    font-size: 16pt !important;
+    padding: 0.8rem 2rem !important;
 }
 .rect2{
     background-image: url(../images/page1/farming-bg.png);
@@ -432,7 +455,7 @@ a {
     background: linear-gradient(to left, #555555 0%, #b5b5b5 100%) !important;
     font-size: 16pt !important;
     border-radius: 7px !important;
-    padding: 0.8rem 40px !important;
+    padding: 0.8rem 2.5rem !important;
 }
 .beginner_btnLight {
     background: linear-gradient(to left, #393939 0%, #8a8a8a 100%) !important;

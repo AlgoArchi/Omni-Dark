@@ -74,21 +74,19 @@ const DexHomeBody = () => {
                     {/*  Vision Farmings */}
                 <div className="col-md-12 mt-5">
                     <div className={darkMode ? 'rect2 d-flex justify-content-center align-items-center':'rect2Light d-flex justify-content-center align-items-center'}>
-                        <div>
-                            <h2 className={darkMode ? 'text-uppercase cFont' :'text-uppercase cFontLight'}> <span className={darkMode?'color2':'color2Light'}>VISION </span> Farmings</h2>
-                            <p className="">Vision is the ultimate exchange protocol</p>
+
+                            {/* Vision Farming letter container */}
+                        <div className={darkMode ? 'color2' : 'color2Light'}>    
+                            <h2>VISION <span className={darkMode ? 'cFont' : 'cFontLight'}>FARMINGS </span></h2>
+                            <p>Vision is the ultimate exchange protocol</p>
                             <div className="d-flex">
-                                <div>
-                                    <button className={darkMode?'btn launchBtn btn-md-lg d-flex mr-3':'btn launchBtnLight btn-md-lg d-flex mr-3'}>
-                                        Locked
-                                        <LockIcon fontSize="medium" />
-                                    </button>
+                                <div className='launchBtn_container'>
+                                    <Button variant="contained" className={darkMode ? 'launchBtn btn-md-lg d-flex' : 'launchBtnLight btn-md-lg d-flex'} endIcon={<LockIcon />}>Locked</Button>
                                 </div>
                                 <div>
-                                    <button className="btn btn-gradient btn-md-lg d-flex">
-                                        Unlock Wallet
-                                        <ArrowRightAltIcon fontSize="medium" />
-                                    </button>
+                                    <Button className={darkMode ? 'unlockbtn_gra btn-md-lg d-flex' : 'unlockbtn_graLight btn-md-lg d-flex'} endIcon={<ArrowRightAltIcon fontSize='30px'/>}>
+                                        Unlock Wallet                                        
+                                    </Button>
                                 </div>
                             </div>
                         </div>
