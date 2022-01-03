@@ -367,9 +367,6 @@ Nav {
     display:flex;
     margin-top:1.3rem;
 }
-.change_button_container {
-    
-}
 
 .subscribe_container {
     background: linear-gradient(to left, #3366ff 0%, #66ccff 100%);
